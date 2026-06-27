@@ -12,7 +12,6 @@ t.goto(0, -250)
 t.pendown()
 
 leaf_colors = ["#00ff7f", "#32cd32", "#7fff00", "#adff2f"]
-
 flower_colors = ["#ff69b4", "#ff1493", "#ffd700", "#ffffff"]
 
 def tree(length):
@@ -24,7 +23,6 @@ def tree(length):
         if random.random() < 0.25:
             t.color(random.choice(flower_colors))
             t.dot(random.randint(4, 8))
-
         return
 
     t.color("#8B4513")
