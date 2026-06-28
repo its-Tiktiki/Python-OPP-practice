@@ -83,7 +83,7 @@ def battle(player):
             continue
 
         if enemy.hp <= 0:
-            print(f"\n🏆 {enemy.name} defeated!")
+            print(f"\n🏆 {enemy.name} Defeated!")
             player.gain_rewards()
             return
 
@@ -100,7 +100,7 @@ def battle(player):
         )
 
     if player.hp <= 0:
-        print("\n💀 GAME OVER")
+        print("\nGAME OVER💀")
         exit()
 
 def main():
