@@ -3,7 +3,7 @@ import math
 
 PINK = "#e2979c"
 RED = "#e7305b"
-GREEN = "#9bdeac"
+GREEN = "#9fdeaf"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
 WORK_MIN = 1
