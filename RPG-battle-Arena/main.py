@@ -104,6 +104,7 @@ def battle(player):
         exit()
 
 def main():
+    
     print("=" * 35)
     print("⚔️ RPG BATTLE ARENA ⚔️")
     print("=" * 35)
