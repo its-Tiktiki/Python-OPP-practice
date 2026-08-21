@@ -13,7 +13,7 @@ while True:
     input("\nPress ENTER when you're ready...")
     os.system("cls" if os.name == "nt" else "clear")
     
-    print("Get ready...")
+    print("Get ready..")
     wait_time = random.uniform(2, 6)
     start_wait = time.time()
 
