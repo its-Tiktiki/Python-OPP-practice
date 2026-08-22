@@ -20,7 +20,7 @@ while True:
     while time.time() - start_wait < wait_time:
         time.sleep(0.01)
 
-    print("\nDRAW! PRESS ENTER NOW!")
+    print("\nDRAW! Press ENTER Now!")
     
     start = time.perf_counter()
     input()
