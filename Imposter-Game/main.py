@@ -49,7 +49,7 @@ while True:
     print(f"\nAI Reaction Time: {ai_time:.3f} seconds")
 
     if reaction_time < ai_time:
-        print("You defeated the AI!")
+        print("You Defeated the AI!")
     elif reaction_time > ai_time:
         print("The AI was faster!")
     else:
