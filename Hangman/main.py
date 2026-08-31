@@ -3,7 +3,6 @@ from hangman_art import logo, CHEERING_GIRL, HANGMAN_DRAWINGS, BYE_GIRL
 
 print(logo)
 
-# asks the users if they want to keep playing ( returns boolean value )
 def keep_playing():
     while True:
         play_again = input("Do you wanna play a round of hangman? yes/no: ")
@@ -16,7 +15,6 @@ def keep_playing():
             print("wrong input. Please try again.")
 
 
-# returns a random word from all_words list
 def get_word_to_guess():
     all_words = ["chocolate", "purple", "bangtan", "seventeen", "army", "jungkoon", "taehyung", "jimin", "jhope", "suga", "jin", "namjoon"]
     word_to_guess = random.choice(all_words)
