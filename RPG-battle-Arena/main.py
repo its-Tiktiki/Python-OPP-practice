@@ -13,7 +13,7 @@ class Player:
     def heal(self):
         amount = random.randint(15, 30)
         self.hp = min(self.max_hp, self.hp + amount)
-        print(f"\n❤️ You healed {amount} HP!")
+        print(f"\n❤️ You healed {amount} HP~!")
 
     def gain_rewards(self):
         xp = random.randint(20, 40)
